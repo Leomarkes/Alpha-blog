@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alpha Blog</title>
+    <style media="screen">
+      body{
+        background-color: black;
+      }
+
+      header{
+        color: white;
+      }
+
+      container{
+        position: relative;
+        margin: 10% 30% 0% 30%;
+        background-color: white;
+        padding: 10 30 10 30;
+      }
+
+      .grid-container {
+        display: grid;
+      }
+
+      h1{
+        text-align: center;
+      }
+
+      img{
+        width: 300px;
+        heigh: 200px;
+        margin-left: 50px;
+      }
+
+      ul{
+        padding: 0px;
+        width: 390px;
+      }
+
+      li{
+        display: inline-block;
+        width: 150px;
+        text-align: justify;
+        padding: 0px 20px 0px 20px;
+      }
+
+      .article{
+        position: static;
+        background-color: white;
+        margin: 0% 10% 0% 10%;
+        padding: 10px 20px 10px 20px;
+        grid-column: 1 / span 6;
+      }
+
+      footer{
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Hello</li>
+        <li>Hey There</li>
+        <li><%= link_to 'Home', root_path %></li>
+      </ul>
+    </header>
+    <container class="grid-container">
+      <div class="article">
+        <h1>Welcome to my blog</h1>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia nulla vel rhoncus lobortis. Donec nulla ipsum, rutrum vitae augue et, vehicula mattis ipsum. Morbi eu massa a enim tincidunt tristique ac sed felis. Vivamus imperdiet nibh eget odio pulvinar semper. Integer placerat mollis nunc, ac finibus purus.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia nulla vel rhoncus lobortis. Donec nulla ipsum, rutrum vitae augue et, vehicula mattis ipsum. Morbi eu massa a enim tincidunt tristique ac sed felis. Vivamus imperdiet nibh eget odio pulvinar semper. Integer placerat mollis nunc, ac finibus purus.</li>
+        </ul>
+      </div>
+    </container>
+    <footer><p>All rights reserved.</p></footer>
+  </body>
+</html>
