@@ -2,11 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Create an Article</title>
+    <title>Edit Article</title>
   </head>
   <body>
-    <h1>Create an article</h1>
-
+    <h1>Edit existing article</h1>
     <% if @article.errors.any? %>
     <h2>The following errors prevented the article from getting created</h2>
     <ul>
@@ -29,7 +28,6 @@
       <%= f.submit %>
     </p>
     <% end %>
-
     <%= link_to "Back to articles listing", articles_path %>
   </body>
 </html>
