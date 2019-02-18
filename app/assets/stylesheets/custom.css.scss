@@ -28,8 +28,9 @@ $navbar-default-bg: darkred;
 }
 
 .jumbotron h1{
-  color: #000;
-  margin-bottom: 30px;
+  color: rgba(0,0,0,0.85);
+  margin-top: 50px;
+  margin-bottom: 180px;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -41,6 +42,31 @@ $navbar-default-bg: darkred;
 
 body{
   background-color: rgba(0,0,0,0.9);
+}
+
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
+}
+
+.article-title{
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.red{
+    color: darkred;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.2em;
 }
 
 footer{
@@ -66,4 +92,8 @@ footer ul{
 footer ul li{
   float: left;
   margin-left: 15px;
+}
+
+.well{
+  background-color: rgba(0,0,0,0.3);
 }
