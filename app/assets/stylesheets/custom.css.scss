@@ -40,12 +40,21 @@ $navbar-default-bg: darkred;
   background-color: black;
 }
 
+.article-meta-details{
+  border-top: 1px solid gray;
+  margin-top: 20px;
+}
+
 body{
   background-color: rgba(0,0,0,0.9);
 }
 
+h1, h2, h4{
+  color: white;
+}
+
 .article-actions{
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid gray;
   padding-top: 5px;
 }
 
@@ -63,10 +72,11 @@ body{
 }
 
 .article-body{
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid gray;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 1.2em;
+  color: white;
 }
 
 footer{
