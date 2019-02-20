@@ -49,7 +49,7 @@ body{
   background-color: rgba(0,0,0,0.9);
 }
 
-h1, h2, h4{
+h1, h2, h4, h5{
   color: white;
 }
 
@@ -67,8 +67,12 @@ h1, h2, h4{
   font-size: 1.7em;
 }
 
-.red{
+a{
     color: darkred;
+}
+
+a:hover{
+  color: red;
 }
 
 .article-body{
@@ -79,15 +83,16 @@ h1, h2, h4{
   color: white;
 }
 
+.listing{
+    list-style: none;
+    padding-left: 0px;
+}
+
 footer{
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-}
-
-footer a:hover{
-  color: red;
 }
 
 footer small{
