@@ -21,6 +21,19 @@ $navbar-default-bg: darkred;
   text-align: center;
 }
 
+#about{
+  color: rgba(0,0,0,0.95);
+  list-style: none;
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+.about{
+  margin-top: 80px;
+  margin-left: 65px;
+  text-align: justify;
+}
+
 .jumbotron{
   background-image: asset-url('download.jpeg');
   background-size: cover;
